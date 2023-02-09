@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
 html {
     height: 100%;
     background-image: linear-gradient(to bottom, #6E4DCD, #DC386A, #FC8020)
@@ -23,7 +27,18 @@ img {
     flex-direction: column;
     padding: 2px;
     align-items: center;
+    justify-content: end;
     border-radius: 10px;
+}
+
+.content {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 form {
@@ -36,7 +51,7 @@ form {
 
 input {
     width: 90%;
-    height: 30%;
+    height: 35%;
     margin-top: 5px;
     border: 1px solid rgba(0, 0, 0, 0.205);
 }
@@ -45,12 +60,18 @@ button {
     background-color: #4666f5;
     color: #ffff;
     width: 90%;
-    height: 7%;
+    height: 10%;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
-
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.281);
+    text-align: center;
+}
 
 
 a:link {text-decoration: none;}
