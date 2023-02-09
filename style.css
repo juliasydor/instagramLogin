@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #6E4DCD, #DC386A, #FC8020)
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 25%;
+    height: 18%;
+}
+
+.container {
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+form {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 90%;
+    height: 30%;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+button {
+    background-color: #4666f5;
+    color: #ffff;
+    width: 90%;
+    height: 7%;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+a:link {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
